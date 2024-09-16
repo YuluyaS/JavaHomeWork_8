@@ -16,6 +16,8 @@ public class Main {
 
 
         System.out.println(post.name);
-        System.out.println(post.birthday);
+        System.out.println(post.birthday.day);
+        System.out.println(post.birthday.month);
+        System.out.println(post.birthday.year);
     }
 }
